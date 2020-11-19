@@ -1,9 +1,13 @@
 {
-  "Version": "",
-  "VersionList": [],
-  "ReleaseTime": "",
-  "CheckTime": "",
-  "DownloadLink": [],
+  "Version": "r3027",
+  "VersionList": [
+    "r3027"
+  ],
+  "ReleaseTime": "2020-11-13T18:36:55Z",
+  "CheckTime": "2020-11-19T15:34Z",
+  "DownloadLink": [
+    "https://cdn.jsdelivr.net/gh/One-Studio/x264-t_mod-posix@master/dist/x264-t_mod-posix.7z"
+  ],
   "Format": 1,
-  "ReleaseNote": ""
+  "ReleaseNote": "x264 t_mod x86/x64 8bits/10bits posix/Win32threads\r\n\r\nx264 t_mod_New version r3027.\r\nBuild made the 08/11/2020.\r\nBuild fprofiled with :\r\n- Winthread : GCC 10.2.1 (20200926 version from msystem.waw.pl/x265) and nasm 2.15.05.\r\n- posix : MSYS2 GCC 10.2.0 Rev5 and nasm 2.15.05.\r\n- mcf : GCC 10.2.1 (20201026 version by LH_Mouse) and nasm 2.15.05.\r\n\r\nFor the posix versions, x264 and all the libpacks are compiled using the posix threading libraries build option when this one is avaible, and also using a posix gcc threading version.\r\nFor the winthread versions, x264 and all the libpacks are compiled using the Win32threads threading libraries build option when this one is avaible, and also using a win32 gcc threading version.\r\nFor the mcf versions, x264 and all the libpacks are compiled using the Win32threads threading libraries build option when this one is avaible, and also using a mcf gcc threading version.\r\n\r\nUse --fullhelp with the version you want to use to see exactly what features (input/ouput) are supported.\r\n\r\nBroadwell : Build fprofiled targeting Broadwell cpu arch and compiled with avx2 instructions. All libpacks are also compiled targeting Broadwell cpu arch and with avx2 instructions.\r\n\r\nLibpacks version :\r\nffmpeg : Stable release v4.3.1.\r\nffms : git commit 55c2af5 of 22/08/2020.\r\nlsmash : git commit 18a9ed2 of 16/03/2020."
 }

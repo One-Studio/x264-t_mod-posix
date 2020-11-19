@@ -9,9 +9,11 @@
   "ArchiverGH": true,
   "ArchiverAPI": "",
   "ArchiverVersion": "v1.2.2",
-  "Version": "",
-  "VersionList": [],
-  "CheckTime": "",
+  "Version": "r3027",
+  "VersionList": [
+    "r3027"
+  ],
+  "CheckTime": "2020-11-19T15:34Z",
   "Format": 1,
   "CompRatio": 3,
   "DistPath": "dist",
@@ -28,9 +30,9 @@
     }
   ],
   "RenameFilter": [
-	{
-		"Index": "x264_tmod_r",
-		"Name": "x264-t_mod-posix.7z"
-	}
+    {
+      "Index": "x264_tmod_r",
+      "Name": "x264-t_mod-posix.7z"
+    }
   ]
 }
