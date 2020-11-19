@@ -1,0 +1,36 @@
+{
+  "TargetOwner": "jpsdr",
+  "TargetRepo": "x264",
+  "TargetGH": true,
+  "TargetAPI": "",
+  "TargetDLink": "",
+  "ArchiverOwner": "One-Studio",
+  "ArchiverRepo": "x264-t_mod-posix",
+  "ArchiverGH": true,
+  "ArchiverAPI": "",
+  "ArchiverVersion": "v1.2.2",
+  "Version": "",
+  "VersionList": [],
+  "CheckTime": "",
+  "Format": 1,
+  "CompRatio": 3,
+  "DistPath": "dist",
+  "Filter": [
+    "x264_tmod_r"
+  ],
+  "DeleteFilter": [
+    {
+      "Index": "x264_tmod_r",
+      "List": [
+        "winthread",
+        "mcf"
+      ]
+    }
+  ],
+  "RenameFilter": [
+	{
+		"Index": "x264_tmod_r",
+		"Name": "x264-t_mod-posix.7z"
+	}
+  ]
+}
